@@ -1,0 +1,25 @@
+.actionFormat {
+   margin-top: 2px;
+   padding: 2px 3px 3px 2px;
+   border: 1px solid #dddddd;
+   display: inline-block;
+   font-size: .8em;
+   font-weight: bold;
+   width: 14px;
+   height: 14px;
+   line-height:8px;
+   color: #FFFFFF;
+   background-color: #FF6666;
+   cursor: pointer;
+}
+
+.actionFormat:hover {
+   background-color: #b30000; /* color for now */
+   color: #FFFFFF;
+}
+
+/* CG: 12/28/2015 - use a SASS var when the component is official */
+.actionGrid .x-grid-item-focused .x-grid-cell-inner:before  
+{     
+      display: none; 
+}
